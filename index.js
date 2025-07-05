@@ -6,9 +6,9 @@ app.get('/', (req, res) => {
     res.send('Hello, DevOPs');
 });
 
-const port = process.env.PORT || 300;
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`http://localhost:${port}`);
     console.log(`Server listening on port ${port}`);
 
-});
+});// test github actions
